@@ -1,16 +1,28 @@
 
-const Content = () => {
+const MainContent = () => {
   return(
-    <div className="header">
-      
-      <div className="header">
-        <ul >
-            <li>Pricings</li>
-            <li>About</li>
-            <li>List</li>
-        </ul> </div>
-    </div>
+      <div>
+        <Food />
+        <h3> Call Food Function</h3>
+      </div>
+  
   ) 
 }
 
-export default Content;
+const Food = () => {
+  return(
+      
+      <div className="Food">
+        <h2> Food </h2>
+        <ul >
+            <li>Pizza</li>
+            <li>Pasta</li>
+            <li>Lasagna</li>
+        </ul> </div>
+  
+  ) 
+}
+
+
+
+export default MainContent;

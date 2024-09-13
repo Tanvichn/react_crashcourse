@@ -1,0 +1,20 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-items {
+    list-style-type: none;  /* Removes the bullets */
+    display: flex;          /* Makes the list items appear in a row */
+    gap: 20px;              /* Adds space between the items */
+    margin: 0;              /* Removes default margin */
+    padding: 0;             /* Removes default padding */
+  }
+  
+  .navitems li {
+    display: inline;        /* Ensures each item is displayed inline */
+  }
